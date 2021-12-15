@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTML Form</title>
+</head>
+<body>
+	<form>
+		<label for="username">username : </label><input type="text" id="username">
+	<br><br>
+		<label for="password">password : </label><input type="password" id="password">
+	<br>
+		<p><b>Jenis Kelamin</b></p>
+		<input type="radio" id="laki-laki" name="jenis kelamin"><label for="laki-laki">laki-laki</label>
+		<input type="radio" id="perempuan" name="jenis kelamin"><label for="perempuan">perempuan</label>
+	<br>
+		<p><b>Hobi</b></p>
+		<input type="checkbox" id="berenang"><label for="berenang">berenang</label>
+		<input type="checkbox" id="main bola"><label for="main bola">main bola</label>
+		<input type="checkbox" id="memasak"><label for="memasak">memasak</label>
+	<br>
+		<p><b>Komentar Netijen</b></p>
+		<textarea></textarea>
+	<br>
+		<p><b>Karisedenan Banyumas</b></p>
+		<select>
+			<option>Banyumas</option>
+			<option>Purwokerto</option>
+			<option>Cilacap</option>
+			<option>Putbalingga</option>
+		</select>
+	<br><br>
+		<button type="reset">Reset</button> <button type="submit">Kirim</button>
+	</form>
+<br><br>
+<hr>
+<br><br>
+	<!-- Merapikan Form Pakai Table -->
+	<table border="1" cellspacing="0" cellpadding="10">
+		<form>
+			<tr>
+				<td align="right"><label for="Nama Lengkap">Nama Lengkap :</label></td>
+				<td align="left"><input type="text" id="Nama Lengkap"></td>
+			</tr>
+			<tr>
+				<td align="right"><label for="Asal Daerah">Asal Daerah : </label></td>
+				<td align="left"><input type="text" id="Asal Daerah"></td>
+			</tr>
+			<tr>
+				<td align="right">Jenis Kelamin :</td>
+				<td align="left" colspan="2">
+					<input type="radio" id="laki-laki" name="jenis kelamin"><label for="laki-laki">laki-laki</label>
+					<input type="radio" id="perempuan" name="jenis kelamin"><label for="perempuan">perempuan</label>
+				</td>
+			</tr>
+			<tr>
+				<td align="right">Ceklist Kelebihan :</td>
+				<td align="left">
+					<input type="checkbox" id="Tampan"><label for="Tampan">Tampan</label>
+					<input type="checkbox" id="Berani"><label for="Berani">Berani</label>
+					<input type="checkbox" id="Rajinnn"><label for="Rajinnn">Rajinnn</label>
+				</td>
+			</tr>
+			<tr>
+				<td align="left">Kedudukan di Kelas :</td>
+				<td align="left">
+					<select>
+						<option>Pembadut</option>
+						<option>Pengcarry</option>
+						<option>Peramai</option>
+						<option>Perusuh</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td align="left">Komentar Netijen :</td>
+				<td><textarea></textarea></td>
+			</tr>
+			<tr>
+				<td align="center" colspan="2"><button type="reset">Reset</button> <button type="submit">Kirim</button></td>
+			</tr>
+		</form>
+	</table>
+<br><br><br><br><br><br>
+</body>
+</html>
